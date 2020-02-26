@@ -11,10 +11,10 @@ import keys
 from PIL import Image, ImageDraw, ImageFont
 import PIL
 
-consumer_key = tweet_keys.consumer_key
-consumer_secret = tweet_keys.consumer_secret
-access_key = tweet_keys.access_key
-access_secret = tweet_keys.access_secret
+consumer_key = keys.consumer_key
+consumer_secret = keys.consumer_secret
+access_key = keys.access_key
+access_secret = keys.access_secret
 
 def get_all_tweets(account1,number1,filepath):
         #files = glob.glob('C:/Users/Vanquish/Desktop/pyve/VisionApi/downloadimage/')
