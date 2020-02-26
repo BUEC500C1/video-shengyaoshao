@@ -7,7 +7,7 @@ import glob
 import stat
 from google.cloud import vision
 from google.cloud.vision import types
-import tweet_keys
+import keys
 from PIL import Image, ImageDraw, ImageFont
 import PIL
 
