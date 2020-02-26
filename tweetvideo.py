@@ -3,10 +3,16 @@ import os
 import io
 import urllib.request
 import subprocess
-import glob
-import stat
+#import glob
+#import stat
+import tweet_keys
 from google.cloud import vision
 from google.cloud.vision import types
+
+consumer_key = tweet_keys.consumer_key
+consumer_secret = tweet_keys.consumer_secret
+access_key = tweet_keys.access_key
+access_secret = tweet_keys.access_secret
 
 def get_all_tweets(account1,number1,filepath):
         #files = glob.glob('C:/Users/Vanquish/Desktop/pyve/VisionApi/downloadimage/')
